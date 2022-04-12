@@ -1,0 +1,53 @@
+.filterCard {
+  width: 100vw;
+  overflow-x: hidden;
+  padding: 1rem 2rem;
+}
+
+.filterCard button {
+  border: none;
+  background-color: transparent;
+  color: #d0cbcb;
+  margin: 0.5rem 2rem;
+}
+.filterCard button:hover {
+  cursor: pointer;
+}
+.filterCard button:focus {
+  outline: none;
+}
+#selected {
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.rBtn {
+  float: right;
+}
+.filterBox {
+  background: #101010;
+  position: absolute;
+  right: 50px;
+  top: 130px;
+  width: 15rem;
+  height: auto;
+  border-radius: 10px;
+  padding: 1rem;
+  z-index: 500;
+}
+.filterH {
+  color: #d0cbcb;
+  padding: 0.5rem;
+  border-bottom: 1px solid white;
+}
+
+.filterBox select {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #232323;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  color: white;
+}

@@ -1,0 +1,42 @@
+.singleCard {
+  width: 90%;
+  margin-left: 3%;
+  background: #171717;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.mapImg {
+  width: 80%;
+  height: 10rem;
+  margin-left: 10%;
+}
+
+.field {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(150, 150, 150);
+  margin-right: 0.5rem;
+}
+.value {
+  color: white;
+  font-weight: 500;
+}
+.col-lg-9 .row {
+  margin-bottom: 0.5rem;
+}
+.cardBox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.cardBox span {
+  background-color: #000000;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+}
